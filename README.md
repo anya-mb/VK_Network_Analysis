@@ -1,10 +1,38 @@
-# VK_Social_Network_Analysis
-This is the project "Social Network Analysis" for course "Network Science" of Data Science Master Program at NRU HSE (Moscow, Russia). Course page: https://www.hse.ru/edu/courses/325403535
+  ----------------------------
+  VK Social Network Analysis
+  ----------------------------
 
-Analysis is done on my friends graph from top Russian social network vk.com. Data is downloaded with VK API and include first name, last name, gender, city, education, relationship status, attitude to smoking and alcohol, personal priorities in life and what is important in others, political views of my friends. 
+This project titled \"Social Network Analysis\" is a part of the
+\"Network Science\" course in the Data Science Master Program at NRU HSE
+(Moscow, Russia).
 
-399 nodes (friends) with 3790 connections are represented as 14 connected components.
+Course page: [HSE Network Science
+Course](https://www.hse.ru/edu/courses/325403535)
 
-Report consists of examining degree destribution, structural analysis (degree, closeness, betweenness centralities, PageRank, Assortative Mixing, Node Structural Equivalence, finding Closest Random Graph) and Community Detection (Clique Search, K-core decomposition, detection by Modularity). 
+The analysis focuses on my friends graph from the top Russian social
+network, [vk.com](https://vk.com/). Data has been retrieved using the VK
+API and includes attributes such as first name, last name, gender, city,
+education, relationship status, attitude to smoking and alcohol,
+personal priorities in life, and the political views of my friends.
 
-In this repository you could find project code with explanations (in Python and a bit in R) and presentation. Most of visualisations are done in Gephi and Python Matplotlib.
+In total, there are 399 nodes (friends) with 3790 connections. This data
+is represented across 14 connected components.
+
+The report comprises:
+
+-   Examining degree distribution
+-   Structural analysis, which includes:
+    -   Degree, closeness, and betweenness centralities
+    -   PageRank
+    -   Assortative Mixing
+    -   Node Structural Equivalence
+    -   Finding the Closest Random Graph
+-   Community Detection, which includes:
+    -   Clique Search
+    -   K-core decomposition
+    -   Detection by Modularity
+
+In this repository, you can find the project code with detailed
+explanations. The code is primarily written in Python, with a touch of
+R. Additionally, a presentation is available. Most visualizations are
+crafted using Gephi and Python\'s Matplotlib library.
